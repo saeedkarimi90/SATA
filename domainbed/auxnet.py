@@ -44,7 +44,7 @@ class DSE(nn.Module):
         self.mean_style = []
         self.std_style = []
         self.d = 0
-       
+        
     def forward(self, x):
         #DSE applied in TTA----------------
         if self.d == 1 or self.d == 2 or self.d == 3:  

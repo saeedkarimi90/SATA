@@ -1,13 +1,10 @@
-# SATA: Style Agnostic Test time Adaptation for Domain Generalization (AAAI_24)
+# SATA: Style Agnostic Test time Adaptation for Domain Generalization (IMAVIS )
 
 PyTorch implementation of (SATA: Style Agnostic Test time Adaptation for Domain Generalization)
 
 Saeed Karimi, Hamdi Dibeklioglu
 
-
-Note that this project is built upon [DomainBed@3fe9d7](https://github.com/facebookresearch/DomainBed/tree/3fe9d7bb4bc14777a42b3a9be8dd887e709ec414) 
-
-
+Note that this project is built upon [DomainBed@3fe9d7](https://github.com/facebookresearch/DomainBed/tree/3fe9d7bb4bc14777a42b3a9be8dd887e709ec414)
 
 ## Preparation
 
@@ -45,8 +42,8 @@ PIL: 8.0.1
 python train_all.py exp_name --dataset PACS --data_dir /my/datasets/path
 ```
 
-
 Example results:
+
 ```
 +------------+--------------+---------+---------+---------+---------+
 | Selection  | art_painting | cartoon |  photo  |  sketch |   Avg.  |
@@ -92,9 +89,3 @@ python train_all.py TR0 --dataset TerraIncognita --deterministic --trial_seed 0 
 python train_all.py TR1 --dataset TerraIncognita --deterministic --trial_seed 1  --data_dir /my/datasets/path
 python train_all.py TR2 --dataset TerraIncognita --deterministic --trial_seed 2  --data_dir /my/datasets/path
 ```
-
-
-
-
-
-
