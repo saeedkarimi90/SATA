@@ -1,4 +1,4 @@
-# SATA: Style Agnostic Test time Adaptation for Domain Generalization (IMAVIS )
+# SATA: Style Agnostic Test time Adaptation for Domain Generalization (IMAVIS  2025)
 
 PyTorch implementation of (SATA: Style Agnostic Test time Adaptation for Domain Generalization)
 
