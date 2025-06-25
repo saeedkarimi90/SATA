@@ -3,6 +3,7 @@
 PyTorch implementation of (SATA: Style Agnostic Test time Adaptation for Domain Generalization)
 
 Saeed Karimi, Hamdi Dibeklioglu
+![Figure Description](figures/Figure1.png)
 
 Note that this project is built upon [DomainBed@3fe9d7](https://github.com/facebookresearch/DomainBed/tree/3fe9d7bb4bc14777a42b3a9be8dd887e709ec414)
 
