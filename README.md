@@ -88,4 +88,4 @@ python train_all.py TR2 --dataset TerraIncognita --trial_seed 2  --data_dir /my/
 ![Figure Description](figures/head.png)
 ![Figure Description](figures/results.png)
 
-## Citatioin
+## Citation
